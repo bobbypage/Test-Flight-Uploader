@@ -12,12 +12,12 @@
 
 @interface TestFlightUploaderAppDelegate : NSObject <NSApplicationDelegate> {
 @private
-    NSWindow *window;
+    NSWindow *__unsafe_unretained window;
     BuilderController *builderController;
 
 }
-@property (nonatomic, retain) IBOutlet BuilderController *builderController;
+@property (nonatomic, strong) IBOutlet BuilderController *builderController;
 
-@property (assign) IBOutlet NSWindow *window;
+@property (unsafe_unretained) IBOutlet NSWindow *window;
 
 @end
