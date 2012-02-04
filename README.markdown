@@ -12,7 +12,7 @@ Though, you can do the same on the testflight website, this application is usefu
 
 ##To use the app:
 1. `git clone` or download the repository
-2. Compile the project in Xcode
+2. Run TestFlightUploader.app or Compile the project in Xcode
 3. Copy and paste the [api-token](https://testflightapp.com/account/) and [team-token-key](https://testflightapp.com/dashboard/team/edit/) from the testflight website
 4. Select your IPA
 5. Press Upload

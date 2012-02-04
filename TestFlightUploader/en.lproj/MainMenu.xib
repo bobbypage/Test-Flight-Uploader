@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
+<<<<<<< HEAD
 		<int key="IBDocument.SystemTarget">1060</int>
 		<string key="IBDocument.SystemVersion">10K549</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
 		<string key="IBDocument.AppKitVersion">1038.36</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
+=======
+		<int key="IBDocument.SystemTarget">1070</int>
+		<string key="IBDocument.SystemVersion">11C74</string>
+		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
+		<string key="IBDocument.AppKitVersion">1138.23</string>
+		<string key="IBDocument.HIToolboxVersion">567.00</string>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string key="NS.object.0">1938</string>
@@ -183,7 +191,11 @@
 							<string key="NSName">_NSAppleMenu</string>
 						</object>
 					</object>
+<<<<<<< HEAD
 					<object class="NSMenuItem" id="24528104">
+=======
+					<object class="NSMenuItem" id="573357333">
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 						<reference key="NSMenu" ref="649796088"/>
 						<string key="NSTitle">Edit</string>
 						<string key="NSKeyEquiv"/>
@@ -191,12 +203,21 @@
 						<reference key="NSOnImage" ref="35465992"/>
 						<reference key="NSMixedImage" ref="502551668"/>
 						<string key="NSAction">submenuAction:</string>
+<<<<<<< HEAD
 						<object class="NSMenu" key="NSSubmenu" id="330266880">
 							<string key="NSTitle">Edit</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="671172750">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+						<object class="NSMenu" key="NSSubmenu" id="611483869">
+							<string key="NSTitle">Edit</string>
+							<object class="NSMutableArray" key="NSMenuItems">
+								<bool key="EncodedWithXMLCoder">YES</bool>
+								<object class="NSMenuItem" id="477135880">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Undo</string>
 									<string key="NSKeyEquiv">z</string>
 									<int key="NSKeyEquivModMask">1048576</int>
@@ -204,8 +225,13 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="695419520">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="878852526">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Redo</string>
 									<string key="NSKeyEquiv">Z</string>
 									<int key="NSKeyEquivModMask">1048576</int>
@@ -213,8 +239,13 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="695661285">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="790413960">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
 									<string key="NSTitle"/>
@@ -223,8 +254,13 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="824016453">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="630264063">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Cut</string>
 									<string key="NSKeyEquiv">x</string>
 									<int key="NSKeyEquivModMask">1048576</int>
@@ -232,8 +268,13 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="771082458">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="945528999">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Copy</string>
 									<string key="NSKeyEquiv">c</string>
 									<int key="NSKeyEquivModMask">1048576</int>
@@ -241,8 +282,13 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="793647882">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="819676807">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Paste</string>
 									<string key="NSKeyEquiv">v</string>
 									<int key="NSKeyEquivModMask">1048576</int>
@@ -250,8 +296,13 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="799108796">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="156918587">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Paste and Match Style</string>
 									<string key="NSKeyEquiv">V</string>
 									<int key="NSKeyEquivModMask">1572864</int>
@@ -259,16 +310,26 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="761616386">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="28901945">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Delete</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="243688112">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="400200131">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Select All</string>
 									<string key="NSKeyEquiv">a</string>
 									<int key="NSKeyEquivModMask">1048576</int>
@@ -276,8 +337,13 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="967907836">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="601158944">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
 									<string key="NSTitle"/>
@@ -286,20 +352,34 @@
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="848543557">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="1050857703">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Find</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
+<<<<<<< HEAD
 									<object class="NSMenu" key="NSSubmenu" id="20574179">
 										<string key="NSTitle">Find</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="500670421">
 												<reference key="NSMenu" ref="20574179"/>
+=======
+									<object class="NSMenu" key="NSSubmenu" id="615599253">
+										<string key="NSTitle">Find</string>
+										<object class="NSMutableArray" key="NSMenuItems">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMenuItem" id="449219985">
+												<reference key="NSMenu" ref="615599253"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Find…</string>
 												<string key="NSKeyEquiv">f</string>
 												<int key="NSKeyEquivModMask">1048576</int>
@@ -308,8 +388,24 @@
 												<reference key="NSMixedImage" ref="502551668"/>
 												<int key="NSTag">1</int>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="1001438630">
 												<reference key="NSMenu" ref="20574179"/>
+=======
+											<object class="NSMenuItem" id="918628783">
+												<reference key="NSMenu" ref="615599253"/>
+												<string key="NSTitle">Find and Replace…</string>
+												<string key="NSKeyEquiv">f</string>
+												<int key="NSKeyEquivModMask">1572864</int>
+												<int key="NSMnemonicLoc">2147483647</int>
+												<reference key="NSOnImage" ref="35465992"/>
+												<reference key="NSMixedImage" ref="502551668"/>
+												<string key="NSAction">performTextFinderAction:</string>
+												<int key="NSTag">12</int>
+											</object>
+											<object class="NSMenuItem" id="698232661">
+												<reference key="NSMenu" ref="615599253"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Find Next</string>
 												<string key="NSKeyEquiv">g</string>
 												<int key="NSKeyEquivModMask">1048576</int>
@@ -318,8 +414,13 @@
 												<reference key="NSMixedImage" ref="502551668"/>
 												<int key="NSTag">2</int>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="196826378">
 												<reference key="NSMenu" ref="20574179"/>
+=======
+											<object class="NSMenuItem" id="1044638703">
+												<reference key="NSMenu" ref="615599253"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Find Previous</string>
 												<string key="NSKeyEquiv">G</string>
 												<int key="NSKeyEquivModMask">1048576</int>
@@ -328,8 +429,13 @@
 												<reference key="NSMixedImage" ref="502551668"/>
 												<int key="NSTag">3</int>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="149607723">
 												<reference key="NSMenu" ref="20574179"/>
+=======
+											<object class="NSMenuItem" id="686951472">
+												<reference key="NSMenu" ref="615599253"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Use Selection for Find</string>
 												<string key="NSKeyEquiv">e</string>
 												<int key="NSKeyEquivModMask">1048576</int>
@@ -338,8 +444,13 @@
 												<reference key="NSMixedImage" ref="502551668"/>
 												<int key="NSTag">7</int>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="910686659">
 												<reference key="NSMenu" ref="20574179"/>
+=======
+											<object class="NSMenuItem" id="341203458">
+												<reference key="NSMenu" ref="615599253"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Jump to Selection</string>
 												<string key="NSKeyEquiv">j</string>
 												<int key="NSKeyEquivModMask">1048576</int>
@@ -350,20 +461,34 @@
 										</object>
 									</object>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="1051296829">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="772752183">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Spelling and Grammar</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
+<<<<<<< HEAD
 									<object class="NSMenu" key="NSSubmenu" id="775305448">
 										<string key="NSTitle">Spelling</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="224438078">
 												<reference key="NSMenu" ref="775305448"/>
+=======
+									<object class="NSMenu" key="NSSubmenu" id="371299185">
+										<string key="NSTitle">Spelling</string>
+										<object class="NSMutableArray" key="NSMenuItems">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMenuItem" id="569729343">
+												<reference key="NSMenu" ref="371299185"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Show Spelling and Grammar</string>
 												<string key="NSKeyEquiv">:</string>
 												<int key="NSKeyEquivModMask">1048576</int>
@@ -371,8 +496,13 @@
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="124839904">
 												<reference key="NSMenu" ref="775305448"/>
+=======
+											<object class="NSMenuItem" id="79881017">
+												<reference key="NSMenu" ref="371299185"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Check Document Now</string>
 												<string key="NSKeyEquiv">;</string>
 												<int key="NSKeyEquivModMask">1048576</int>
@@ -380,8 +510,13 @@
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="1031774386">
 												<reference key="NSMenu" ref="775305448"/>
+=======
+											<object class="NSMenuItem" id="178284764">
+												<reference key="NSMenu" ref="371299185"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<bool key="NSIsDisabled">YES</bool>
 												<bool key="NSIsSeparator">YES</bool>
 												<string key="NSTitle"/>
@@ -390,24 +525,39 @@
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="1054651080">
 												<reference key="NSMenu" ref="775305448"/>
+=======
+											<object class="NSMenuItem" id="7729650">
+												<reference key="NSMenu" ref="371299185"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Check Spelling While Typing</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="877511174">
 												<reference key="NSMenu" ref="775305448"/>
+=======
+											<object class="NSMenuItem" id="931693689">
+												<reference key="NSMenu" ref="371299185"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Check Grammar With Spelling</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="355638541">
 												<reference key="NSMenu" ref="775305448"/>
+=======
+											<object class="NSMenuItem" id="477503368">
+												<reference key="NSMenu" ref="371299185"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Correct Spelling Automatically</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -417,28 +567,47 @@
 										</object>
 									</object>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="154440348">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="681038961">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Substitutions</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
+<<<<<<< HEAD
 									<object class="NSMenu" key="NSSubmenu" id="982991852">
 										<string key="NSTitle">Substitutions</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="726016224">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+									<object class="NSMenu" key="NSSubmenu" id="215130526">
+										<string key="NSTitle">Substitutions</string>
+										<object class="NSMutableArray" key="NSMenuItems">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMenuItem" id="855989133">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Show Substitutions</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="948087230">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+											<object class="NSMenuItem" id="689959021">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<bool key="NSIsDisabled">YES</bool>
 												<bool key="NSIsSeparator">YES</bool>
 												<string key="NSTitle"/>
@@ -447,48 +616,78 @@
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="260276334">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+											<object class="NSMenuItem" id="1056082046">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Smart Copy/Paste</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="1027500725">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+											<object class="NSMenuItem" id="107469389">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Smart Quotes</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="129034543">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+											<object class="NSMenuItem" id="71860321">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Smart Dashes</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="468305528">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+											<object class="NSMenuItem" id="224697442">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Smart Links</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="58394922">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+											<object class="NSMenuItem" id="8921060">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Data Detectors</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="305799424">
 												<reference key="NSMenu" ref="982991852"/>
+=======
+											<object class="NSMenuItem" id="193442234">
+												<reference key="NSMenu" ref="215130526"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Text Replacement</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -498,36 +697,60 @@
 										</object>
 									</object>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="973380463">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="1058586353">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Transformations</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
+<<<<<<< HEAD
 									<object class="NSMenu" key="NSSubmenu" id="47219655">
 										<string key="NSTitle">Transformations</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="855342338">
 												<reference key="NSMenu" ref="47219655"/>
+=======
+									<object class="NSMenu" key="NSSubmenu" id="56428924">
+										<string key="NSTitle">Transformations</string>
+										<object class="NSMutableArray" key="NSMenuItems">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMenuItem" id="710689960">
+												<reference key="NSMenu" ref="56428924"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Make Upper Case</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="976286430">
 												<reference key="NSMenu" ref="47219655"/>
+=======
+											<object class="NSMenuItem" id="813859410">
+												<reference key="NSMenu" ref="56428924"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Make Lower Case</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="157528985">
 												<reference key="NSMenu" ref="47219655"/>
+=======
+											<object class="NSMenuItem" id="420707956">
+												<reference key="NSMenu" ref="56428924"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Capitalize</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -537,28 +760,47 @@
 										</object>
 									</object>
 								</object>
+<<<<<<< HEAD
 								<object class="NSMenuItem" id="1032206084">
 									<reference key="NSMenu" ref="330266880"/>
+=======
+								<object class="NSMenuItem" id="518685167">
+									<reference key="NSMenu" ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 									<string key="NSTitle">Speech</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">submenuAction:</string>
+<<<<<<< HEAD
 									<object class="NSMenu" key="NSSubmenu" id="597599507">
 										<string key="NSTitle">Speech</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="858718449">
 												<reference key="NSMenu" ref="597599507"/>
+=======
+									<object class="NSMenu" key="NSSubmenu" id="745404013">
+										<string key="NSTitle">Speech</string>
+										<object class="NSMutableArray" key="NSMenuItems">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMenuItem" id="232154875">
+												<reference key="NSMenu" ref="745404013"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Start Speaking</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="35465992"/>
 												<reference key="NSMixedImage" ref="502551668"/>
 											</object>
+<<<<<<< HEAD
 											<object class="NSMenuItem" id="45425492">
 												<reference key="NSMenu" ref="597599507"/>
+=======
+											<object class="NSMenuItem" id="322598915">
+												<reference key="NSMenu" ref="745404013"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 												<string key="NSTitle">Stop Speaking</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -657,11 +899,12 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">7</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {266, 429}}</string>
+				<string key="NSWindowRect">{{335, 390}, {650, 480}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">TestFlightUploader</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
+				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="439893737">
 					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
@@ -670,8 +913,12 @@
 						<object class="NSButton" id="828849179">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{85, 2}, {96, 32}}</string>
+							<string key="NSFrame">{{257, 12}, {137, 32}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+<<<<<<< HEAD
+=======
+							<reference key="NSNextKeyView" ref="221097781"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="1046549522">
 								<int key="NSCellFlags">67239424</int>
@@ -694,7 +941,7 @@
 						<object class="NSTextField" id="1047583860">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{-25, 380}, {316, 36}}</string>
+							<string key="NSFrame">{{91, 424}, {469, 36}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSNextKeyView" ref="289123"/>
 							<bool key="NSEnabled">YES</bool>
@@ -703,7 +950,7 @@
 								<int key="NSCellFlags2">138413056</int>
 								<string key="NSContents">TestFlight Upload</string>
 								<object class="NSFont" key="NSSupport">
-									<string key="NSName">LucidaGrande</string>
+									<string key="NSName">HelveticaNeue-Light</string>
 									<double key="NSSize">30</double>
 									<int key="NSfFlags">16</int>
 								</object>
@@ -735,7 +982,7 @@
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSView" id="389030763">
 									<reference key="NSNextResponder" ref="289123"/>
-									<int key="NSvFlags">256</int>
+									<int key="NSvFlags">274</int>
 									<object class="NSMutableArray" key="NSSubviews">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<object class="NSTextField" id="562456445">
@@ -954,7 +1201,11 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{88, 14}, {83, 17}}</string>
 											<reference key="NSSuperview" ref="389030763"/>
+<<<<<<< HEAD
 											<reference key="NSNextKeyView" ref="828849179"/>
+=======
+											<reference key="NSNextKeyView" ref="615092150"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="934339978">
@@ -974,7 +1225,7 @@
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 								</object>
 							</object>
-							<string key="NSFrame">{{-3, 35}, {272, 323}}</string>
+							<string key="NSFrame">{{189, 77}, {272, 323}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSNextKeyView" ref="389030763"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
@@ -1000,7 +1251,117 @@
 							<int key="NSTitlePosition">2</int>
 							<bool key="NSTransparent">NO</bool>
 						</object>
+						<object class="NSTextField" id="615092150">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{232, 52}, {186, 17}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSNextKeyView" ref="828849179"/>
+							<string key="NSReuseIdentifierKey">_NS:3944</string>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSTextFieldCell" key="NSCell" id="300930477">
+								<int key="NSCellFlags">68288064</int>
+								<int key="NSCellFlags2">138413056</int>
+								<string key="NSContents">Upload Progress: 0%</string>
+								<reference key="NSSupport" ref="391331439"/>
+								<string key="NSCellIdentifier">_NS:3944</string>
+								<reference key="NSControlView" ref="615092150"/>
+								<reference key="NSBackgroundColor" ref="4922447"/>
+								<reference key="NSTextColor" ref="922580045"/>
+							</object>
+						</object>
+						<object class="NSTextField" id="716714619">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{557, 12}, {86, 17}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSNextKeyView"/>
+							<string key="NSReuseIdentifierKey">_NS:3944</string>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSTextFieldCell" key="NSCell" id="914653465">
+								<int key="NSCellFlags">68288064</int>
+								<int key="NSCellFlags2">272630784</int>
+								<string key="NSContents">@bobbypage</string>
+								<reference key="NSSupport" ref="391331439"/>
+								<string key="NSCellIdentifier">_NS:3944</string>
+								<reference key="NSControlView" ref="716714619"/>
+								<reference key="NSBackgroundColor" ref="4922447"/>
+								<object class="NSColor" key="NSTextColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MCAwIDEAA</bytes>
+								</object>
+							</object>
+						</object>
+						<object class="NSTextField" id="221097781">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{485, 12}, {73, 17}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSNextKeyView" ref="231678311"/>
+							<string key="NSReuseIdentifierKey">_NS:3944</string>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSTextFieldCell" key="NSCell" id="888973724">
+								<int key="NSCellFlags">68288064</int>
+								<int key="NSCellFlags2">272630784</int>
+								<string key="NSContents">Created by</string>
+								<reference key="NSSupport" ref="391331439"/>
+								<string key="NSCellIdentifier">_NS:3944</string>
+								<reference key="NSControlView" ref="221097781"/>
+								<reference key="NSBackgroundColor" ref="4922447"/>
+								<reference key="NSTextColor" ref="922580045"/>
+							</object>
+						</object>
+						<object class="NSButton" id="231678311">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{555, 10}, {90, 19}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSNextKeyView" ref="716714619"/>
+							<string key="NSReuseIdentifierKey">_NS:2434</string>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSButtonCell" key="NSCell" id="41048062">
+								<int key="NSCellFlags">-2080244224</int>
+								<int key="NSCellFlags2">134217728</int>
+								<string key="NSContents"/>
+								<reference key="NSSupport" ref="391331439"/>
+								<string key="NSCellIdentifier">_NS:2434</string>
+								<reference key="NSControlView" ref="231678311"/>
+								<int key="NSButtonFlags">-2046508801</int>
+								<int key="NSButtonFlags2">134</int>
+								<string key="NSAlternateContents"/>
+								<string key="NSKeyEquivalent"/>
+								<int key="NSPeriodicDelay">400</int>
+								<int key="NSPeriodicInterval">75</int>
+							</object>
+						</object>
+						<object class="NSButton" id="595419718">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{11, 9}, {19, 19}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<string key="NSReuseIdentifierKey">_NS:2434</string>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSButtonCell" key="NSCell" id="772603331">
+								<int key="NSCellFlags">-2080244224</int>
+								<int key="NSCellFlags2">134217728</int>
+								<string key="NSContents">?</string>
+								<object class="NSFont" key="NSSupport">
+									<string key="NSName">LucidaGrande</string>
+									<double key="NSSize">12</double>
+									<int key="NSfFlags">16</int>
+								</object>
+								<string key="NSCellIdentifier">_NS:2434</string>
+								<reference key="NSControlView" ref="595419718"/>
+								<int key="NSButtonFlags">-2038152961</int>
+								<int key="NSButtonFlags2">164</int>
+								<string key="NSAlternateContents"/>
+								<string key="NSKeyEquivalent"/>
+								<int key="NSPeriodicDelay">400</int>
+								<int key="NSPeriodicInterval">75</int>
+							</object>
+						</object>
 					</object>
+<<<<<<< HEAD
 					<string key="NSFrame">{{7, 11}, {266, 429}}</string>
 					<reference key="NSNextKeyView" ref="1047583860"/>
 				</object>
@@ -1263,6 +1624,56 @@
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">stopSpeaking:</string>
+=======
+					<string key="NSFrameSize">{650, 480}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSNextKeyView" ref="1047583860"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1418}}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSCustomObject" id="976324537">
+				<string key="NSClassName">TestFlightUploaderAppDelegate</string>
+			</object>
+			<object class="NSCustomObject" id="755631768">
+				<string key="NSClassName">NSFontManager</string>
+			</object>
+			<object class="NSCustomObject" id="384376652">
+				<string key="NSClassName">UploaderController</string>
+			</object>
+		</object>
+		<object class="IBObjectContainer" key="IBDocument.Objects">
+			<object class="NSMutableArray" key="connectionRecords">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">terminate:</string>
+						<reference key="source" ref="1050"/>
+						<reference key="destination" ref="632727374"/>
+					</object>
+					<int key="connectionID">449</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">orderFrontStandardAboutPanel:</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="238522557"/>
+					</object>
+					<int key="connectionID">142</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="976324537"/>
+					</object>
+					<int key="connectionID">495</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performMiniaturize:</string>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 						<reference key="source" ref="1014"/>
 						<reference key="destination" ref="45425492"/>
 					</object>
@@ -1278,6 +1689,7 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
+<<<<<<< HEAD
 						<string key="label">toggleAutomaticDashSubstitution:</string>
 						<reference key="source" ref="1014"/>
 						<reference key="destination" ref="129034543"/>
@@ -1287,6 +1699,9 @@
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">pasteAsPlainText:</string>
+=======
+						<string key="label">performZoom:</string>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 						<reference key="source" ref="1014"/>
 						<reference key="destination" ref="799108796"/>
 					</object>
@@ -1318,6 +1733,7 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
+<<<<<<< HEAD
 						<string key="label">centerSelectionInVisibleArea:</string>
 						<reference key="source" ref="1014"/>
 						<reference key="destination" ref="910686659"/>
@@ -1331,6 +1747,253 @@
 						<reference key="destination" ref="196826378"/>
 					</object>
 					<int key="connectionID">705</int>
+=======
+						<string key="label">startSpeaking:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="232154875"/>
+					</object>
+					<int key="connectionID">676</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">copy:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="945528999"/>
+					</object>
+					<int key="connectionID">677</int>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">cut:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="630264063"/>
+					</object>
+					<int key="connectionID">678</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleAutomaticSpellingCorrection:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="477503368"/>
+					</object>
+					<int key="connectionID">679</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleSmartInsertDelete:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="1056082046"/>
+					</object>
+					<int key="connectionID">680</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">checkSpelling:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="79881017"/>
+					</object>
+					<int key="connectionID">681</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleContinuousSpellChecking:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="7729650"/>
+					</object>
+					<int key="connectionID">682</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">paste:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="819676807"/>
+					</object>
+					<int key="connectionID">683</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleAutomaticDataDetection:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="8921060"/>
+					</object>
+					<int key="connectionID">684</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleAutomaticTextReplacement:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="193442234"/>
+					</object>
+					<int key="connectionID">685</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">orderFrontSubstitutionsPanel:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="855989133"/>
+					</object>
+					<int key="connectionID">686</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleAutomaticLinkDetection:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="224697442"/>
+					</object>
+					<int key="connectionID">687</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">uppercaseWord:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="710689960"/>
+					</object>
+					<int key="connectionID">688</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">lowercaseWord:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="813859410"/>
+					</object>
+					<int key="connectionID">689</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleGrammarChecking:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="931693689"/>
+					</object>
+					<int key="connectionID">690</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">showGuessPanel:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="569729343"/>
+					</object>
+					<int key="connectionID">691</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">redo:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="878852526"/>
+					</object>
+					<int key="connectionID">692</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">delete:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="28901945"/>
+					</object>
+					<int key="connectionID">693</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleAutomaticQuoteSubstitution:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="107469389"/>
+					</object>
+					<int key="connectionID">694</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">capitalizeWord:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="420707956"/>
+					</object>
+					<int key="connectionID">695</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">selectAll:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="400200131"/>
+					</object>
+					<int key="connectionID">696</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">stopSpeaking:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="322598915"/>
+					</object>
+					<int key="connectionID">697</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">undo:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="477135880"/>
+					</object>
+					<int key="connectionID">698</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleAutomaticDashSubstitution:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="71860321"/>
+					</object>
+					<int key="connectionID">699</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">pasteAsPlainText:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="156918587"/>
+					</object>
+					<int key="connectionID">700</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performFindPanelAction:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="698232661"/>
+					</object>
+					<int key="connectionID">702</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performFindPanelAction:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="686951472"/>
+					</object>
+					<int key="connectionID">703</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performFindPanelAction:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="449219985"/>
+					</object>
+					<int key="connectionID">704</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">centerSelectionInVisibleArea:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="341203458"/>
+					</object>
+					<int key="connectionID">705</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performTextFinderAction:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="918628783"/>
+					</object>
+					<int key="connectionID">706</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performFindPanelAction:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="1044638703"/>
+					</object>
+					<int key="connectionID">707</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -1397,12 +2060,28 @@
 					<int key="connectionID">624</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">uploadProgressLabel</string>
+						<reference key="source" ref="384376652"/>
+						<reference key="destination" ref="615092150"/>
+					</object>
+					<int key="connectionID">715</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">showTwitter:</string>
+						<reference key="source" ref="384376652"/>
+						<reference key="destination" ref="231678311"/>
+					</object>
+					<int key="connectionID">724</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">pressedHelp:</string>
 						<reference key="source" ref="384376652"/>
-						<reference key="destination" ref="105068016"/>
+						<reference key="destination" ref="595419718"/>
 					</object>
-					<int key="connectionID">629</int>
+					<int key="connectionID">727</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1442,7 +2121,11 @@
 							<reference ref="713487014"/>
 							<reference ref="694149608"/>
 							<reference ref="448692316"/>
+<<<<<<< HEAD
 							<reference ref="24528104"/>
+=======
+							<reference ref="573357333"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -1594,8 +2277,13 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="1047583860"/>
-							<reference ref="289123"/>
 							<reference ref="828849179"/>
+							<reference ref="289123"/>
+							<reference ref="615092150"/>
+							<reference ref="716714619"/>
+							<reference ref="221097781"/>
+							<reference ref="231678311"/>
+							<reference ref="595419718"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -1832,15 +2520,23 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">630</int>
+<<<<<<< HEAD
 						<reference key="object" ref="24528104"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="330266880"/>
+=======
+						<reference key="object" ref="573357333"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="611483869"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 						</object>
 						<reference key="parent" ref="649796088"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">631</int>
+<<<<<<< HEAD
 						<reference key="object" ref="330266880"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2140,6 +2836,383 @@
 						<int key="objectID">675</int>
 						<reference key="object" ref="910686659"/>
 						<reference key="parent" ref="20574179"/>
+=======
+						<reference key="object" ref="611483869"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="477135880"/>
+							<reference ref="878852526"/>
+							<reference ref="790413960"/>
+							<reference ref="630264063"/>
+							<reference ref="945528999"/>
+							<reference ref="819676807"/>
+							<reference ref="156918587"/>
+							<reference ref="28901945"/>
+							<reference ref="400200131"/>
+							<reference ref="601158944"/>
+							<reference ref="1050857703"/>
+							<reference ref="772752183"/>
+							<reference ref="681038961"/>
+							<reference ref="1058586353"/>
+							<reference ref="518685167"/>
+						</object>
+						<reference key="parent" ref="573357333"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">632</int>
+						<reference key="object" ref="477135880"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">633</int>
+						<reference key="object" ref="878852526"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">634</int>
+						<reference key="object" ref="790413960"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">635</int>
+						<reference key="object" ref="630264063"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">636</int>
+						<reference key="object" ref="945528999"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">637</int>
+						<reference key="object" ref="819676807"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">638</int>
+						<reference key="object" ref="156918587"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">639</int>
+						<reference key="object" ref="28901945"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">640</int>
+						<reference key="object" ref="400200131"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">641</int>
+						<reference key="object" ref="601158944"/>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">642</int>
+						<reference key="object" ref="1050857703"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="615599253"/>
+						</object>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">643</int>
+						<reference key="object" ref="772752183"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="371299185"/>
+						</object>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">644</int>
+						<reference key="object" ref="681038961"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="215130526"/>
+						</object>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">645</int>
+						<reference key="object" ref="1058586353"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="56428924"/>
+						</object>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">646</int>
+						<reference key="object" ref="518685167"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="745404013"/>
+						</object>
+						<reference key="parent" ref="611483869"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">647</int>
+						<reference key="object" ref="745404013"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="232154875"/>
+							<reference ref="322598915"/>
+						</object>
+						<reference key="parent" ref="518685167"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">648</int>
+						<reference key="object" ref="232154875"/>
+						<reference key="parent" ref="745404013"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">649</int>
+						<reference key="object" ref="322598915"/>
+						<reference key="parent" ref="745404013"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">650</int>
+						<reference key="object" ref="56428924"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="710689960"/>
+							<reference ref="813859410"/>
+							<reference ref="420707956"/>
+						</object>
+						<reference key="parent" ref="1058586353"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">651</int>
+						<reference key="object" ref="710689960"/>
+						<reference key="parent" ref="56428924"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">652</int>
+						<reference key="object" ref="813859410"/>
+						<reference key="parent" ref="56428924"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">653</int>
+						<reference key="object" ref="420707956"/>
+						<reference key="parent" ref="56428924"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">654</int>
+						<reference key="object" ref="215130526"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="855989133"/>
+							<reference ref="689959021"/>
+							<reference ref="1056082046"/>
+							<reference ref="107469389"/>
+							<reference ref="71860321"/>
+							<reference ref="224697442"/>
+							<reference ref="8921060"/>
+							<reference ref="193442234"/>
+						</object>
+						<reference key="parent" ref="681038961"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">655</int>
+						<reference key="object" ref="855989133"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">656</int>
+						<reference key="object" ref="689959021"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">657</int>
+						<reference key="object" ref="1056082046"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">658</int>
+						<reference key="object" ref="107469389"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">659</int>
+						<reference key="object" ref="71860321"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">660</int>
+						<reference key="object" ref="224697442"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">661</int>
+						<reference key="object" ref="8921060"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">662</int>
+						<reference key="object" ref="193442234"/>
+						<reference key="parent" ref="215130526"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">663</int>
+						<reference key="object" ref="371299185"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="569729343"/>
+							<reference ref="79881017"/>
+							<reference ref="178284764"/>
+							<reference ref="7729650"/>
+							<reference ref="931693689"/>
+							<reference ref="477503368"/>
+						</object>
+						<reference key="parent" ref="772752183"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">664</int>
+						<reference key="object" ref="569729343"/>
+						<reference key="parent" ref="371299185"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">665</int>
+						<reference key="object" ref="79881017"/>
+						<reference key="parent" ref="371299185"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">666</int>
+						<reference key="object" ref="178284764"/>
+						<reference key="parent" ref="371299185"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">667</int>
+						<reference key="object" ref="7729650"/>
+						<reference key="parent" ref="371299185"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">668</int>
+						<reference key="object" ref="931693689"/>
+						<reference key="parent" ref="371299185"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">669</int>
+						<reference key="object" ref="477503368"/>
+						<reference key="parent" ref="371299185"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">670</int>
+						<reference key="object" ref="615599253"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="449219985"/>
+							<reference ref="698232661"/>
+							<reference ref="1044638703"/>
+							<reference ref="686951472"/>
+							<reference ref="341203458"/>
+							<reference ref="918628783"/>
+						</object>
+						<reference key="parent" ref="1050857703"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">671</int>
+						<reference key="object" ref="449219985"/>
+						<reference key="parent" ref="615599253"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">672</int>
+						<reference key="object" ref="698232661"/>
+						<reference key="parent" ref="615599253"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">673</int>
+						<reference key="object" ref="1044638703"/>
+						<reference key="parent" ref="615599253"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">674</int>
+						<reference key="object" ref="686951472"/>
+						<reference key="parent" ref="615599253"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">675</int>
+						<reference key="object" ref="341203458"/>
+						<reference key="parent" ref="615599253"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">701</int>
+						<reference key="object" ref="918628783"/>
+						<reference key="parent" ref="615599253"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">713</int>
+						<reference key="object" ref="615092150"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="300930477"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">714</int>
+						<reference key="object" ref="300930477"/>
+						<reference key="parent" ref="615092150"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">718</int>
+						<reference key="object" ref="716714619"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="914653465"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">719</int>
+						<reference key="object" ref="914653465"/>
+						<reference key="parent" ref="716714619"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">720</int>
+						<reference key="object" ref="221097781"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="888973724"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">721</int>
+						<reference key="object" ref="888973724"/>
+						<reference key="parent" ref="221097781"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">722</int>
+						<reference key="object" ref="231678311"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="41048062"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">723</int>
+						<reference key="object" ref="41048062"/>
+						<reference key="parent" ref="231678311"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">725</int>
+						<reference key="object" ref="595419718"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="772603331"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">726</int>
+						<reference key="object" ref="772603331"/>
+						<reference key="parent" ref="595419718"/>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 					</object>
 				</object>
 			</object>
@@ -2252,6 +3325,20 @@
 					<string>673.IBPluginDependency</string>
 					<string>674.IBPluginDependency</string>
 					<string>675.IBPluginDependency</string>
+<<<<<<< HEAD
+=======
+					<string>701.IBPluginDependency</string>
+					<string>713.IBPluginDependency</string>
+					<string>714.IBPluginDependency</string>
+					<string>718.IBPluginDependency</string>
+					<string>719.IBPluginDependency</string>
+					<string>720.IBPluginDependency</string>
+					<string>721.IBPluginDependency</string>
+					<string>722.IBPluginDependency</string>
+					<string>723.IBPluginDependency</string>
+					<string>725.IBPluginDependency</string>
+					<string>726.IBPluginDependency</string>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 					<string>92.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
@@ -2362,6 +3449,20 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+<<<<<<< HEAD
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="unlocalizedProperties">
@@ -2376,6 +3477,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
+<<<<<<< HEAD
 			<int key="maxID">705</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
@@ -2515,7 +3617,11 @@
 					</object>
 				</object>
 			</object>
+=======
+			<int key="maxID">727</int>
+>>>>>>> Ditched ASIHTTPRequest for AFNetworking (Less Dependencies!). Uses ARC. Copy & Paste works. Updated UI. Added precompiled binary.
 		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">

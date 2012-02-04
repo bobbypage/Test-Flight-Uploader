@@ -7,7 +7,7 @@
 //
 
 #import "UploaderController.h"
-#import "JSON.h"
+#import "AFNetworking.h"
 @implementation UploaderController
 
 - (id)init
@@ -19,7 +19,7 @@
     
     return self;
 }
-- (BOOL)fieldsFilled {
+- (BOOL)fieldsFilled {    
     if ([[api_token_field stringValue] isEqualToString:@""]) {
         return  NO;
     }
@@ -35,7 +35,8 @@
 
 }
 - (IBAction)pressedHelp:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://testflightapp.com/api/doc/"]];
+
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/bobbypage/Test-Flight-Uploader"]];
 }
 
 - (IBAction)pressed:(id)sender {
@@ -49,7 +50,6 @@
         [alert setInformativeText:@"You haven't added all the required fields"];
         [alert setAlertStyle:NSWarningAlertStyle];
         [alert runModal];
-        [alert release];
         
     }
 }
@@ -62,74 +62,87 @@
 	[openDlg setCanChooseDirectories:NO];
 	[openDlg setAllowsMultipleSelection:NO];
     [openDlg setAllowedFileTypes:allowedFileTypes];
-    
-	if ([openDlg runModalForTypes:allowedFileTypes] == NSOKButton) {
-        NSArray *files = [openDlg filenames];
-        [api_ipa_path_field setStringValue:[files objectAtIndex:0]];
-	}
+
+    [openDlg beginSheetModalForWindow:[NSApp keyWindow]
+                  completionHandler: ^(NSInteger result) {
+                      if (result == NSFileHandlingPanelOKButton) {
+                          NSURL *url = [[openDlg URLs] objectAtIndex: 0];
+                          ipaData = [[NSData alloc] initWithContentsOfURL:url];
+                          [api_ipa_path_field setStringValue:[url absoluteString]];
+
+                      }
+                  }];
 
 }
-- (void)upload {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	NSURL *URL = [NSURL URLWithString: @"http://testflightapp.com/api/builds.json"] ;
-	
-	ASIFormDataRequest *post = [ASIFormDataRequest requestWithURL:URL] ;
-	[post setRequestMethod:@"POST"] ;
-	[post addPostValue:[api_token_field stringValue] forKey: @"api_token"];
-    [post addPostValue:[api_teamToken_field stringValue] forKey: @"team_token"];
-    [post addFile:[api_ipa_path_field stringValue] forKey:@"file"];
-	[post addPostValue:[api_releaseNotes_field stringValue] forKey: @"notes"] ;
+- (void)upload {    
+    NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
+                            [api_token_field stringValue] , @"api_token",
+                            [api_teamToken_field stringValue], @"team_token",
+                            [api_releaseNotes_field stringValue], @"notes",
+                            nil];
+    
+    AFHTTPClient *httpClient = 
+    [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:@"http://testflightapp.com/"]];
+    NSMutableURLRequest *request = [httpClient      
+                                      multipartFormRequestWithMethod:@"POST"
+                                      path:@"api/builds.json"  
+                                      parameters:params
+                                      constructingBodyWithBlock:
+                                      ^(id <AFMultipartFormData>formData) {
+                                          [formData appendPartWithFileData:ipaData                                
+                                                                      name:@"file"
+                                                                  fileName:@"app.ipa"
+                                                                  mimeType:@"application/octet-stream"];
+                                      } 
+                                      ]; 
+    
+    
+   __block AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+       
+       NSString *messageText = [NSString stringWithFormat:@"Hooray!\nHere are some details:\n\nBundle Version: %@ \nInstall URL: %@ \nConfig URL: %@ \nCreated At: %@ \nDevice Family: %@ \nNotify: %@ \nTeam: %@ \nMinimum OS Version: %@ \nRelease Notes: %@ \nBinary Size: %@", 
+                                
+                                [JSON objectForKey:@"bundle_version"], 
+                                [JSON objectForKey:@"install_url"], 
+                                [JSON objectForKey:@"config_url"], 
+                                [JSON objectForKey:@"created_at"], 
+                                [JSON objectForKey:@"device_family"], 
+                                [JSON objectForKey:@"notify"], 
+                                [JSON objectForKey:@"team"], 
+                                [JSON objectForKey:@"minimum_os_version"], 
+                                [JSON objectForKey:@"release_notes"], 
+                                [JSON objectForKey:@"binary_size"]];
+       
+       [self showAlertWithTitle:@"Uploaded IPA successfully" message:messageText dismissButtonTitle:@"OK"];
 
-    [post setDidStartSelector: @selector(uploadStarted:)];
-    [post setDidFinishSelector: @selector(uploadFinished:)];
-    [post setDidFailSelector: @selector(uploadFailed:)];
-    [post setDelegate:self] ;
-    [post startSynchronous];
-    [pool release];
-}
-- (void)uploadStarted:(ASIFormDataRequest *)post {
+
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
+        [self showAlertWithTitle:@"Oops, upload failed!" message:operation.responseString dismissButtonTitle:@"OK"];
+    }];
+    
+    [operation setUploadProgressBlock:   
+     ^(NSInteger bytesWritten, NSInteger totalBytesWritten,
+       NSInteger totalBytesExpectedToWrite) {
+         float percentDone = (((float)((int)totalBytesWritten) / (float)((int)totalBytesExpectedToWrite))*100);
+//         NSLog(@"Sent %ld of %ld bytes", totalBytesWritten, totalBytesExpectedToWrite);
+         [uploadProgressLabel setStringValue:[NSString stringWithFormat:@"Upload Progress: %.f%%", percentDone]];
+     }
+     ];  
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    [queue addOperation:operation];
     
 }
-- (void)uploadFailed:(ASIFormDataRequest *)post {
+- (IBAction)showTwitter:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://twitter.com/bobbypage"]];
+
+}
+- (void)showAlertWithTitle:(NSString *)title message:(NSString *)messageTitle dismissButtonTitle:(NSString *)dismissButtonTitle {
     NSAlert *alert = [[NSAlert alloc] init];
-    [alert addButtonWithTitle:@"OK"];
-    [alert setMessageText:@"Success!"];
-    [alert setInformativeText:@"Your upload to testFlight failed"]; 
-    [alert setAlertStyle:NSCriticalAlertStyle];
-    [alert runModal];
-    [alert release];
-   
- }
-- (void)uploadFinished:(ASIFormDataRequest *)post {
-    NSString *jsonResponse = [post responseString];
-    NSDictionary *jsonItems = [jsonResponse JSONValue];
-    NSString *messageText = [NSString stringWithFormat:@"Bundle Version: %@ \nInstall URL: %@ \nConfig URL: %@ \nCreated At: %@ \nDevice Family: %@ \nNotify: %@ \nTeam: %@ \nMinimum OS Version: %@ \nRelease Notes: %@ \nBinary Size: %@", 
-                             
-                             [jsonItems objectForKey:@"bundle_version"], 
-                             [jsonItems objectForKey:@"install_url"], 
-                             [jsonItems objectForKey:@"config_url"], 
-                             [jsonItems objectForKey:@"created_at"], 
-                             [jsonItems objectForKey:@"device_family"], 
-                             [jsonItems objectForKey:@"notify"], 
-                             [jsonItems objectForKey:@"team"], 
-                             [jsonItems objectForKey:@"minimum_os_version"], 
-                             [jsonItems objectForKey:@"release_notes"], 
-                             [jsonItems objectForKey:@"binary_size"]];
-                             
-                                                                            
-    NSAlert *alert = [[NSAlert alloc] init];
-    [alert addButtonWithTitle:@"Sweet"];
-    [alert setMessageText:@"App upload successfully"];
-    [alert setInformativeText:messageText]; 
+    [alert setMessageText:title];
+    [alert addButtonWithTitle:dismissButtonTitle];
+    [alert setInformativeText:messageTitle]; 
     [alert setAlertStyle:NSInformationalAlertStyle];
     [alert runModal];
-    [alert release];
-  
-
-}
-- (void)dealloc
-{
-    [super dealloc];
 }
 
 @end

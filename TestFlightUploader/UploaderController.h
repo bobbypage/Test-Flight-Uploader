@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ASIFormDataRequest.h"
 
 @interface UploaderController : NSObject {
 @private
@@ -15,9 +14,13 @@
     IBOutlet NSTextField *api_releaseNotes_field;
     IBOutlet NSTextField *api_teamToken_field;
     IBOutlet NSTextField *api_token_field;
+    IBOutlet NSTextField *uploadProgressLabel;
+    NSData *ipaData;
 }
+- (IBAction)showTwitter:(id)sender;
 - (IBAction)pressedHelp:(id)sender;
 - (IBAction)pressed:(id)sender;
 - (IBAction)chooseIPAPressed:(id)sender;
 - (void)upload;
+- (void)showAlertWithTitle:(NSString *)title message:(NSString *)messageTitle dismissButtonTitle:(NSString *)dismissButtonTitle;
 @end

@@ -9,81 +9,28 @@
 /* Begin PBXBuildFile section */
 		6319D2021387881500B50CC7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6319D2011387881500B50CC7 /* icon.icns */; };
 		6319D2051387883A00B50CC7 /* UploaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2041387883A00B50CC7 /* UploaderController.m */; };
-		6319D21B1387885F00B50CC7 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D20A1387885F00B50CC7 /* ASIDataCompressor.m */; };
-		6319D21C1387885F00B50CC7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D20C1387885F00B50CC7 /* ASIDataDecompressor.m */; };
-		6319D21D1387885F00B50CC7 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D20E1387885F00B50CC7 /* ASIDownloadCache.m */; };
-		6319D21E1387885F00B50CC7 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2101387885F00B50CC7 /* ASIFormDataRequest.m */; };
-		6319D21F1387885F00B50CC7 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2121387885F00B50CC7 /* ASIHTTPRequest.m */; };
-		6319D2201387885F00B50CC7 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2161387885F00B50CC7 /* ASIInputStream.m */; };
-		6319D2211387885F00B50CC7 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2181387885F00B50CC7 /* ASINetworkQueue.m */; };
-		6319D23A1387886F00B50CC7 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2241387886F00B50CC7 /* NSObject+JSON.m */; };
-		6319D23B1387886F00B50CC7 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2271387886F00B50CC7 /* SBJsonParser.m */; };
-		6319D23C1387886F00B50CC7 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2291387886F00B50CC7 /* SBJsonStreamParser.m */; };
-		6319D23D1387886F00B50CC7 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D22B1387886F00B50CC7 /* SBJsonStreamParserAccumulator.m */; };
-		6319D23E1387886F00B50CC7 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D22D1387886F00B50CC7 /* SBJsonStreamParserAdapter.m */; };
-		6319D23F1387886F00B50CC7 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D22F1387886F00B50CC7 /* SBJsonStreamParserState.m */; };
-		6319D2401387886F00B50CC7 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2311387886F00B50CC7 /* SBJsonStreamWriter.m */; };
-		6319D2411387886F00B50CC7 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2331387886F00B50CC7 /* SBJsonStreamWriterAccumulator.m */; };
-		6319D2421387886F00B50CC7 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2351387886F00B50CC7 /* SBJsonStreamWriterState.m */; };
-		6319D2431387886F00B50CC7 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2371387886F00B50CC7 /* SBJsonTokeniser.m */; };
-		6319D2441387886F00B50CC7 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319D2391387886F00B50CC7 /* SBJsonWriter.m */; };
 		637A14B2137E5373004A08EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637A14B1137E5373004A08EB /* Cocoa.framework */; };
 		637A14BC137E5373004A08EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 637A14BA137E5373004A08EB /* InfoPlist.strings */; };
 		637A14BF137E5373004A08EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A14BE137E5373004A08EB /* main.m */; };
 		637A14C2137E5373004A08EB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 637A14C0137E5373004A08EB /* Credits.rtf */; };
 		637A14C5137E5373004A08EB /* TestFlightUploaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A14C4137E5373004A08EB /* TestFlightUploaderAppDelegate.m */; };
 		637A14C8137E5373004A08EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637A14C6137E5373004A08EB /* MainMenu.xib */; };
-		637A14F3137E56EE004A08EB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637A14F2137E56EE004A08EB /* SystemConfiguration.framework */; };
-		637A14F5137E56F6004A08EB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637A14F4137E56F6004A08EB /* CoreServices.framework */; };
-		637A14F7137E5709004A08EB /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 637A14F6137E5709004A08EB /* libz.1.2.3.dylib */; };
+		EF7AB82B14DD18DE0076AF75 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB81714DD18DE0076AF75 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB82C14DD18DE0076AF75 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB81914DD18DE0076AF75 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB82D14DD18DE0076AF75 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB81B14DD18DE0076AF75 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB82E14DD18DE0076AF75 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB81D14DD18DE0076AF75 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB82F14DD18DE0076AF75 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB81F14DD18DE0076AF75 /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB83014DD18DE0076AF75 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB82114DD18DE0076AF75 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB83114DD18DE0076AF75 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB82414DD18DE0076AF75 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB83214DD18DE0076AF75 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB82614DD18DE0076AF75 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB83314DD18DE0076AF75 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB82814DD18DE0076AF75 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7AB83414DD18DE0076AF75 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AB82A14DD18DE0076AF75 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6319D2011387881500B50CC7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = TestFlightUploader/icon.icns; sourceTree = "<group>"; };
 		6319D2031387883A00B50CC7 /* UploaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploaderController.h; sourceTree = "<group>"; };
 		6319D2041387883A00B50CC7 /* UploaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploaderController.m; sourceTree = "<group>"; };
-		6319D2081387885F00B50CC7 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASICacheDelegate.h"; sourceTree = "<group>"; };
-		6319D2091387885F00B50CC7 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIDataCompressor.h"; sourceTree = "<group>"; };
-		6319D20A1387885F00B50CC7 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIDataCompressor.m"; sourceTree = "<group>"; };
-		6319D20B1387885F00B50CC7 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIDataDecompressor.h"; sourceTree = "<group>"; };
-		6319D20C1387885F00B50CC7 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIDataDecompressor.m"; sourceTree = "<group>"; };
-		6319D20D1387885F00B50CC7 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIDownloadCache.h"; sourceTree = "<group>"; };
-		6319D20E1387885F00B50CC7 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIDownloadCache.m"; sourceTree = "<group>"; };
-		6319D20F1387885F00B50CC7 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIFormDataRequest.h"; sourceTree = "<group>"; };
-		6319D2101387885F00B50CC7 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIFormDataRequest.m"; sourceTree = "<group>"; };
-		6319D2111387885F00B50CC7 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIHTTPRequest.h"; sourceTree = "<group>"; };
-		6319D2121387885F00B50CC7 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIHTTPRequest.m"; sourceTree = "<group>"; };
-		6319D2131387885F00B50CC7 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIHTTPRequestConfig.h"; sourceTree = "<group>"; };
-		6319D2141387885F00B50CC7 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIHTTPRequestDelegate.h"; sourceTree = "<group>"; };
-		6319D2151387885F00B50CC7 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIInputStream.h"; sourceTree = "<group>"; };
-		6319D2161387885F00B50CC7 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIInputStream.m"; sourceTree = "<group>"; };
-		6319D2171387885F00B50CC7 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASINetworkQueue.h"; sourceTree = "<group>"; };
-		6319D2181387885F00B50CC7 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASINetworkQueue.m"; sourceTree = "<group>"; };
-		6319D2191387885F00B50CC7 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = "Libraries/pokeb-asi-http-request-63b73bc/Classes/ASIProgressDelegate.h"; sourceTree = "<group>"; };
-		6319D2221387886F00B50CC7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = "Libraries/stig-json-framework-f482f58/Classes/JSON.h"; sourceTree = "<group>"; };
-		6319D2231387886F00B50CC7 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JSON.h"; path = "Libraries/stig-json-framework-f482f58/Classes/NSObject+JSON.h"; sourceTree = "<group>"; };
-		6319D2241387886F00B50CC7 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JSON.m"; path = "Libraries/stig-json-framework-f482f58/Classes/NSObject+JSON.m"; sourceTree = "<group>"; };
-		6319D2251387886F00B50CC7 /* SBJsonIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonIncludes.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonIncludes.h"; sourceTree = "<group>"; };
-		6319D2261387886F00B50CC7 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonParser.h"; sourceTree = "<group>"; };
-		6319D2271387886F00B50CC7 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonParser.m"; sourceTree = "<group>"; };
-		6319D2281387886F00B50CC7 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParser.h"; sourceTree = "<group>"; };
-		6319D2291387886F00B50CC7 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParser.m"; sourceTree = "<group>"; };
-		6319D22A1387886F00B50CC7 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParserAccumulator.h"; sourceTree = "<group>"; };
-		6319D22B1387886F00B50CC7 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParserAccumulator.m"; sourceTree = "<group>"; };
-		6319D22C1387886F00B50CC7 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParserAdapter.h"; sourceTree = "<group>"; };
-		6319D22D1387886F00B50CC7 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParserAdapter.m"; sourceTree = "<group>"; };
-		6319D22E1387886F00B50CC7 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParserState.h"; sourceTree = "<group>"; };
-		6319D22F1387886F00B50CC7 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamParserState.m"; sourceTree = "<group>"; };
-		6319D2301387886F00B50CC7 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamWriter.h"; sourceTree = "<group>"; };
-		6319D2311387886F00B50CC7 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamWriter.m"; sourceTree = "<group>"; };
-		6319D2321387886F00B50CC7 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamWriterAccumulator.h"; sourceTree = "<group>"; };
-		6319D2331387886F00B50CC7 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamWriterAccumulator.m"; sourceTree = "<group>"; };
-		6319D2341387886F00B50CC7 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamWriterState.h"; sourceTree = "<group>"; };
-		6319D2351387886F00B50CC7 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonStreamWriterState.m"; sourceTree = "<group>"; };
-		6319D2361387886F00B50CC7 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonTokeniser.h"; sourceTree = "<group>"; };
-		6319D2371387886F00B50CC7 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonTokeniser.m"; sourceTree = "<group>"; };
-		6319D2381387886F00B50CC7 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonWriter.h"; sourceTree = "<group>"; };
-		6319D2391387886F00B50CC7 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = "Libraries/stig-json-framework-f482f58/Classes/SBJsonWriter.m"; sourceTree = "<group>"; };
 		637A14AD137E5373004A08EB /* TestFlightUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFlightUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637A14B1137E5373004A08EB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		637A14B4137E5373004A08EB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -97,9 +44,27 @@
 		637A14C3137E5373004A08EB /* TestFlightUploaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFlightUploaderAppDelegate.h; sourceTree = "<group>"; };
 		637A14C4137E5373004A08EB /* TestFlightUploaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFlightUploaderAppDelegate.m; sourceTree = "<group>"; };
 		637A14C7137E5373004A08EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		637A14F2137E56EE004A08EB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		637A14F4137E56F6004A08EB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
-		637A14F6137E5709004A08EB /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		EF7AB81614DD18DE0076AF75 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		EF7AB81714DD18DE0076AF75 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		EF7AB81814DD18DE0076AF75 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		EF7AB81914DD18DE0076AF75 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		EF7AB81A14DD18DE0076AF75 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		EF7AB81B14DD18DE0076AF75 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		EF7AB81C14DD18DE0076AF75 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		EF7AB81D14DD18DE0076AF75 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		EF7AB81E14DD18DE0076AF75 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		EF7AB81F14DD18DE0076AF75 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		EF7AB82014DD18DE0076AF75 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		EF7AB82114DD18DE0076AF75 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		EF7AB82214DD18DE0076AF75 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		EF7AB82314DD18DE0076AF75 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		EF7AB82414DD18DE0076AF75 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		EF7AB82514DD18DE0076AF75 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		EF7AB82614DD18DE0076AF75 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		EF7AB82714DD18DE0076AF75 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		EF7AB82814DD18DE0076AF75 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		EF7AB82914DD18DE0076AF75 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		EF7AB82A14DD18DE0076AF75 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637A14F7137E5709004A08EB /* libz.1.2.3.dylib in Frameworks */,
-				637A14F5137E56F6004A08EB /* CoreServices.framework in Frameworks */,
-				637A14F3137E56EE004A08EB /* SystemConfiguration.framework in Frameworks */,
 				637A14B2137E5373004A08EB /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,9 +82,8 @@
 		637A14A2137E5373004A08EB = {
 			isa = PBXGroup;
 			children = (
+				EF7AB81514DD18DE0076AF75 /* AFNetworking */,
 				6319D2011387881500B50CC7 /* icon.icns */,
-				637A1522137E5B61004A08EB /* ASIHTTPRequest */,
-				637A1521137E5B21004A08EB /* json-framework */,
 				637A14B7137E5373004A08EB /* TestFlightUploader */,
 				637A14B0137E5373004A08EB /* Frameworks */,
 				637A14AE137E5373004A08EB /* Products */,
@@ -140,9 +101,6 @@
 		637A14B0137E5373004A08EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				637A14F6137E5709004A08EB /* libz.1.2.3.dylib */,
-				637A14F4137E56F6004A08EB /* CoreServices.framework */,
-				637A14F2137E56EE004A08EB /* SystemConfiguration.framework */,
 				637A14B1137E5373004A08EB /* Cocoa.framework */,
 				637A14B3137E5373004A08EB /* Other Frameworks */,
 			);
@@ -184,60 +142,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		637A1521137E5B21004A08EB /* json-framework */ = {
+		EF7AB81514DD18DE0076AF75 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				6319D2221387886F00B50CC7 /* JSON.h */,
-				6319D2231387886F00B50CC7 /* NSObject+JSON.h */,
-				6319D2241387886F00B50CC7 /* NSObject+JSON.m */,
-				6319D2251387886F00B50CC7 /* SBJsonIncludes.h */,
-				6319D2261387886F00B50CC7 /* SBJsonParser.h */,
-				6319D2271387886F00B50CC7 /* SBJsonParser.m */,
-				6319D2281387886F00B50CC7 /* SBJsonStreamParser.h */,
-				6319D2291387886F00B50CC7 /* SBJsonStreamParser.m */,
-				6319D22A1387886F00B50CC7 /* SBJsonStreamParserAccumulator.h */,
-				6319D22B1387886F00B50CC7 /* SBJsonStreamParserAccumulator.m */,
-				6319D22C1387886F00B50CC7 /* SBJsonStreamParserAdapter.h */,
-				6319D22D1387886F00B50CC7 /* SBJsonStreamParserAdapter.m */,
-				6319D22E1387886F00B50CC7 /* SBJsonStreamParserState.h */,
-				6319D22F1387886F00B50CC7 /* SBJsonStreamParserState.m */,
-				6319D2301387886F00B50CC7 /* SBJsonStreamWriter.h */,
-				6319D2311387886F00B50CC7 /* SBJsonStreamWriter.m */,
-				6319D2321387886F00B50CC7 /* SBJsonStreamWriterAccumulator.h */,
-				6319D2331387886F00B50CC7 /* SBJsonStreamWriterAccumulator.m */,
-				6319D2341387886F00B50CC7 /* SBJsonStreamWriterState.h */,
-				6319D2351387886F00B50CC7 /* SBJsonStreamWriterState.m */,
-				6319D2361387886F00B50CC7 /* SBJsonTokeniser.h */,
-				6319D2371387886F00B50CC7 /* SBJsonTokeniser.m */,
-				6319D2381387886F00B50CC7 /* SBJsonWriter.h */,
-				6319D2391387886F00B50CC7 /* SBJsonWriter.m */,
+				EF7AB81614DD18DE0076AF75 /* AFHTTPClient.h */,
+				EF7AB81714DD18DE0076AF75 /* AFHTTPClient.m */,
+				EF7AB81814DD18DE0076AF75 /* AFHTTPRequestOperation.h */,
+				EF7AB81914DD18DE0076AF75 /* AFHTTPRequestOperation.m */,
+				EF7AB81A14DD18DE0076AF75 /* AFImageRequestOperation.h */,
+				EF7AB81B14DD18DE0076AF75 /* AFImageRequestOperation.m */,
+				EF7AB81C14DD18DE0076AF75 /* AFJSONRequestOperation.h */,
+				EF7AB81D14DD18DE0076AF75 /* AFJSONRequestOperation.m */,
+				EF7AB81E14DD18DE0076AF75 /* AFJSONUtilities.h */,
+				EF7AB81F14DD18DE0076AF75 /* AFJSONUtilities.m */,
+				EF7AB82014DD18DE0076AF75 /* AFNetworkActivityIndicatorManager.h */,
+				EF7AB82114DD18DE0076AF75 /* AFNetworkActivityIndicatorManager.m */,
+				EF7AB82214DD18DE0076AF75 /* AFNetworking.h */,
+				EF7AB82314DD18DE0076AF75 /* AFPropertyListRequestOperation.h */,
+				EF7AB82414DD18DE0076AF75 /* AFPropertyListRequestOperation.m */,
+				EF7AB82514DD18DE0076AF75 /* AFURLConnectionOperation.h */,
+				EF7AB82614DD18DE0076AF75 /* AFURLConnectionOperation.m */,
+				EF7AB82714DD18DE0076AF75 /* AFXMLRequestOperation.h */,
+				EF7AB82814DD18DE0076AF75 /* AFXMLRequestOperation.m */,
+				EF7AB82914DD18DE0076AF75 /* UIImageView+AFNetworking.h */,
+				EF7AB82A14DD18DE0076AF75 /* UIImageView+AFNetworking.m */,
 			);
-			name = "json-framework";
-			sourceTree = "<group>";
-		};
-		637A1522137E5B61004A08EB /* ASIHTTPRequest */ = {
-			isa = PBXGroup;
-			children = (
-				6319D2081387885F00B50CC7 /* ASICacheDelegate.h */,
-				6319D2091387885F00B50CC7 /* ASIDataCompressor.h */,
-				6319D20A1387885F00B50CC7 /* ASIDataCompressor.m */,
-				6319D20B1387885F00B50CC7 /* ASIDataDecompressor.h */,
-				6319D20C1387885F00B50CC7 /* ASIDataDecompressor.m */,
-				6319D20D1387885F00B50CC7 /* ASIDownloadCache.h */,
-				6319D20E1387885F00B50CC7 /* ASIDownloadCache.m */,
-				6319D20F1387885F00B50CC7 /* ASIFormDataRequest.h */,
-				6319D2101387885F00B50CC7 /* ASIFormDataRequest.m */,
-				6319D2111387885F00B50CC7 /* ASIHTTPRequest.h */,
-				6319D2121387885F00B50CC7 /* ASIHTTPRequest.m */,
-				6319D2131387885F00B50CC7 /* ASIHTTPRequestConfig.h */,
-				6319D2141387885F00B50CC7 /* ASIHTTPRequestDelegate.h */,
-				6319D2151387885F00B50CC7 /* ASIInputStream.h */,
-				6319D2161387885F00B50CC7 /* ASIInputStream.m */,
-				6319D2171387885F00B50CC7 /* ASINetworkQueue.h */,
-				6319D2181387885F00B50CC7 /* ASINetworkQueue.m */,
-				6319D2191387885F00B50CC7 /* ASIProgressDelegate.h */,
-			);
-			name = ASIHTTPRequest;
+			name = AFNetworking;
+			path = Libraries/AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,24 +239,16 @@
 				637A14BF137E5373004A08EB /* main.m in Sources */,
 				637A14C5137E5373004A08EB /* TestFlightUploaderAppDelegate.m in Sources */,
 				6319D2051387883A00B50CC7 /* UploaderController.m in Sources */,
-				6319D21B1387885F00B50CC7 /* ASIDataCompressor.m in Sources */,
-				6319D21C1387885F00B50CC7 /* ASIDataDecompressor.m in Sources */,
-				6319D21D1387885F00B50CC7 /* ASIDownloadCache.m in Sources */,
-				6319D21E1387885F00B50CC7 /* ASIFormDataRequest.m in Sources */,
-				6319D21F1387885F00B50CC7 /* ASIHTTPRequest.m in Sources */,
-				6319D2201387885F00B50CC7 /* ASIInputStream.m in Sources */,
-				6319D2211387885F00B50CC7 /* ASINetworkQueue.m in Sources */,
-				6319D23A1387886F00B50CC7 /* NSObject+JSON.m in Sources */,
-				6319D23B1387886F00B50CC7 /* SBJsonParser.m in Sources */,
-				6319D23C1387886F00B50CC7 /* SBJsonStreamParser.m in Sources */,
-				6319D23D1387886F00B50CC7 /* SBJsonStreamParserAccumulator.m in Sources */,
-				6319D23E1387886F00B50CC7 /* SBJsonStreamParserAdapter.m in Sources */,
-				6319D23F1387886F00B50CC7 /* SBJsonStreamParserState.m in Sources */,
-				6319D2401387886F00B50CC7 /* SBJsonStreamWriter.m in Sources */,
-				6319D2411387886F00B50CC7 /* SBJsonStreamWriterAccumulator.m in Sources */,
-				6319D2421387886F00B50CC7 /* SBJsonStreamWriterState.m in Sources */,
-				6319D2431387886F00B50CC7 /* SBJsonTokeniser.m in Sources */,
-				6319D2441387886F00B50CC7 /* SBJsonWriter.m in Sources */,
+				EF7AB82B14DD18DE0076AF75 /* AFHTTPClient.m in Sources */,
+				EF7AB82C14DD18DE0076AF75 /* AFHTTPRequestOperation.m in Sources */,
+				EF7AB82D14DD18DE0076AF75 /* AFImageRequestOperation.m in Sources */,
+				EF7AB82E14DD18DE0076AF75 /* AFJSONRequestOperation.m in Sources */,
+				EF7AB82F14DD18DE0076AF75 /* AFJSONUtilities.m in Sources */,
+				EF7AB83014DD18DE0076AF75 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				EF7AB83114DD18DE0076AF75 /* AFPropertyListRequestOperation.m in Sources */,
+				EF7AB83214DD18DE0076AF75 /* AFURLConnectionOperation.m in Sources */,
+				EF7AB83314DD18DE0076AF75 /* AFXMLRequestOperation.m in Sources */,
+				EF7AB83414DD18DE0076AF75 /* UIImageView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,12 +318,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestFlightUploader/TestFlightUploader-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "TestFlightUploader/TestFlightUploader-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,12 +337,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestFlightUploader/TestFlightUploader-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "TestFlightUploader/TestFlightUploader-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
