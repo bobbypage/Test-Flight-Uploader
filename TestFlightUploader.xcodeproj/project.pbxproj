@@ -266,6 +266,7 @@
 		637A14A4137E5373004A08EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "David Porter Apps";
 			};
 			buildConfigurationList = 637A14A7137E5373004A08EB /* Build configuration list for PBXProject "TestFlightUploader" */;
