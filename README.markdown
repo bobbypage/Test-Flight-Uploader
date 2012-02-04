@@ -1,5 +1,7 @@
 #Test-Flight-Uploader
 
+![Test-Flight-Uploader](http://i.imgur.com/EELS5.png)
+
 Test-Flight-Uploader lets you upload your app to the testflight servers using a mac app. 
 
 ##Background
